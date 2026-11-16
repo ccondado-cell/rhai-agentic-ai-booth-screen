@@ -2,7 +2,7 @@
 
 A self-contained, zero-dependency booth screen for the AWS re:Invent mini-theater. One HTML file carries a 16-scene agent-governance narrative in a 102.4-second attract loop (6.4 seconds per scene), plus a presenter mode for booth staff. Everything runs offline in kiosk Chromium: no network requests, no build step, no frameworks.
 
-**Live page:** https://ccondado-cell.github.io/reinvent-booth-screen/
+**Live page:** https://ccondado-cell.github.io/rhai-agentic-ai-booth-screen/
 
 ## What it is
 
