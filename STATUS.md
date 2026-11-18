@@ -17,7 +17,11 @@
   103 points, every sample ≥ 5.68 units from the stroke edge). Dot radius 5 →
   4.5 so the disc fits everywhere. Because the real stroke is open, the train
   now fades in at the tapered end of the right lobe and fades out where the
-  loop runs into the return arrow. Details: `docs/addendum.md` section 22.
+  loop runs into the return arrow. The dot delays are negative (same 1.8s
+  spacing) so all five agents are spread around the stroke the moment the
+  scene opens: the scene lasts 6.4s and five agents at 1.8s apart need 7.2s,
+  so with positive delays the fifth never appeared.
+  Details: `docs/addendum.md` section 22.
 - Both copies of `index.html` are in sync at v3.7.1.
 
 ## In flight

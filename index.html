@@ -978,11 +978,13 @@
 
     // Init Scene 12 agent train (five gray agents riding the DevOps loop stroke, evenly spaced,
     // one behind another; the offset-path is traced from the icon's own stroke so the dots stay
-    // inside the red, and the train fades in/out at the stroke's two open ends)
+    // inside the red, and the train fades in/out at the stroke's two open ends.
+    // Delays are negative: the 1.8s spacing is kept but the train enters the scene already
+    // spread evenly, since a scene only lasts 6.4s and 5 x 1.8s would outlast it)
     const loopDots = document.getElementById('loop-dots');
     if (loopDots) {
         loopDots.innerHTML = [0, 1, 2, 3, 4].map(i =>
-            `<circle r="4.5" fill="var(--rh-gray-20)" class="loop-dot" style="--del:${(i * 1.8).toFixed(1)}s;"/>`
+            `<circle r="4.5" fill="var(--rh-gray-20)" class="loop-dot" style="--del:${(-i * 1.8).toFixed(1)}s;"/>`
         ).join('');
     }
 
