@@ -149,3 +149,12 @@ Carlos approved replacing the ordinal spine headlines ("One: a sandbox." ... "Fi
 | 11 | Five: identity. | One agent, one **identity**. | No shared accounts. No anonymous agents. |
 
 Rationale: scenes 7 to 9 share one cadence (verb, object, scope) so the five controls read as one system; the breadth of Red Hat's gateway (keys, models, MCPs, agents) is split between scene 8's headline (what passes through) and support (who holds the key), which is the differentiator against commodity AI gateways. Scene 10's support trades "evidence" (now redundant with "Prove") for "Every release," adding the continuous-proof dimension. Scene 11 promotes the strongest existing identity line to the headline; the new support calls back to scene 3's ungoverned agents. Word-count limits respected: longest headline 5 words, longest support 6.
+
+## v3.7 copy pass (Nov 18, 2026): field-feedback support swaps
+
+Field feedback on two support lines; headlines untouched. Both swaps were screened against the Red Hat brand voice (plain cause-and-effect, no security-team jargon) and Carlos converged on the final wording from the screened option set. Word-count limits respected (8 and 6 words; limit 12; no em or en dashes). No other copy changed; the v3.6 spine headlines stand.
+
+| Scene | Old support | New support | Rationale |
+|---|---|---|---|
+| 7 | Its blast radius ends where policy draws it. | If an agent misbehaves, it goes nowhere else. | "Blast radius" reads as security-team jargon at a 3-second booth glance; the line keeps the same containment promise (a misbehaving agent is bounded by the sandbox) in plain cause-and-effect. The policy-drawn-boundary nuance from the v3.4 rationale above remains the design intent; the on-screen line now carries it implicitly. |
+| 9 | Every step recorded. Tested against attacks first. | Every step recorded. Tested against attacks. | "First" asserted a timing claim that is unclear at a glance; the pre-production sequencing is already owned by scene 10 ("Prove before production"). |

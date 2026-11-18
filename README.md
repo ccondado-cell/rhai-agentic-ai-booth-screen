@@ -6,7 +6,7 @@ A self-contained, zero-dependency booth screen for the AWS re:Invent mini-theate
 
 ## What it is
 
-The screen tells one story in three movements: agents are multiplying faster than controls (market), Red Hat AI runs five controls on every agent (spine: Sandbox, Gateway, Traceability, Proof, Identity), and the platform scales from 10 to 1,000 agents under one control plane (scale). Copy is locked at v3.6; headlines max 7 words, support lines max 12, one calm continuous animation per scene, 3-second read per scene.
+The screen tells one story in three movements: agents are multiplying faster than controls (market), Red Hat AI runs five controls on every agent (spine: Sandbox, Gateway, Traceability, Proof, Identity), and the platform scales from 10 to 1,000 agents under one control plane (scale). Copy is locked at v3.7; headlines max 7 words, support lines max 12, one calm continuous animation per scene, 3-second read per scene.
 
 - 16 scenes, 6.4s each, 102.4s loop
 - Vanilla HTML/CSS/JS in a single `index.html`
@@ -48,7 +48,7 @@ fonts/              Red Hat Display / Red Hat Text (woff2)
 docs/               Design brief, locked copy document, implementation addendum
 ```
 
-Design record lives in `docs/`: the scene-by-scene brief, the copy document with version history (v3.1 through v3.6), and the implementation addendum (asset manifest, motion decisions, measured geometry).
+Design record lives in `docs/`: the scene-by-scene brief, the copy document with version history (v3.1 through v3.7), and the implementation addendum (asset manifest, motion decisions, measured geometry).
 
 ## Asset credits and usage
 
