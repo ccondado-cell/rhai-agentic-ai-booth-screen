@@ -3,6 +3,20 @@
 > Handoff file: whoever touches work last updates this before ending a session
 > (done / in-flight / next / how to verify).
 
+## Where the file lives (2026-11-18)
+`index.html` has exactly one real copy: this repo clone. The two paths Carlos
+opens are symlinks to it, so an edit here (or a `git pull`) is instantly the
+file he sees, with no second copy to drift:
+
+- `~/.claude/content/talks/reinvent-booth-screen/index.html` -> `index.html`
+- `~/.claude/content/talks/reinvent-booth-screen/addendum.md` -> `docs/addendum.md`
+- `~/Documents/talks/reinvent-booth-screen/index.html` -> `index.html`
+- `~/Documents/talks/reinvent-booth-screen/addendum.md` -> `docs/addendum.md`
+
+Each of those folders keeps its own `assets/` and `fonts/`, so the page still
+renders standalone from either path. A new asset therefore has to be dropped
+in both folders; HTML, CSS and docs do not.
+
 ## Done
 - v3.7 copy pass (2026-11-18): two support-line swaps from field feedback —
   scene 7 "Its blast radius ends where policy draws it." → "If an agent
